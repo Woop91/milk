@@ -11,8 +11,15 @@
         compatible = "zmk,combos";
 
         de {
-            bindings = <&mt A D>;
+            bindings = <&tog 1>;
             key-positions = <0 1>;
+        };
+
+        TSTR {
+            bindings = <&tog 2>;
+            key-positions = <1 0>;
+            require-prior-idle-ms = <1000>;
+            timeout-ms = <1000>;
         };
     };
 
@@ -21,7 +28,19 @@
 
         default_layer {
             bindings = <
-&mt K_POWER C_PP  &mt ESC ENTER
+&mt K_PLAY_PAUSE C_VOLUME_UP  &mt RETURN K_VOL_DN2
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&kp LEFT_ARROW  &kp RIGHT_ARROW
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&sys_reset  &bt BT_CLR
             >;
         };
     };
