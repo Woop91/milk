@@ -23,7 +23,7 @@
 
         default_layer {
             bindings = <
-&mt K_PLAY_PAUSE C_VOLUME_UP  &mt DOWN_ARROW K_VOLUME_DOWN
+&mt K_VOLUME_UP C_PLAY_PAUSE  &mt K_VOLUME_DOWN DOWN
             >;
         };
 
