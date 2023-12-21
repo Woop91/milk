@@ -20,8 +20,8 @@
         TSTR {
             bindings = <&tog 2>;
             key-positions = <1 0>;
-            require-prior-idle-ms = <1000>;
-            timeout-ms = <1000>;
+            timeout-ms = <2000>;
+            layers = <0 1 2>;
         };
     };
 
