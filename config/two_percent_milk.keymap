@@ -42,7 +42,7 @@
 
         layer_2 {
             bindings = <
-&kp DOWN_ARROW  &bt BT_CLR
+&kp DOWN_ARROW  &kp D
             >;
         };
     };
