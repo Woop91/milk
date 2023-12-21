@@ -29,7 +29,7 @@
 
         layer_1 {
             bindings = <
-&mkp MB1  &bt BT_CLR
+&bt BT_CLR  &bt BT_CLR
             >;
         };
 
