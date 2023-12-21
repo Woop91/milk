@@ -36,7 +36,7 @@
 
         layer_1 {
             bindings = <
-&kp PAGE_UP  &kp PAGE_DOWN
+&kp PAGE_UP  &bt BT_CLR
             >;
         };
 
