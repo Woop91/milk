@@ -30,13 +30,13 @@
 
         default_layer {
             bindings = <
-&mt K_PLAY_PAUSE C_VOLUME_UP  &mt LEFT_ARROW RIGHT
+&mt K_PLAY_PAUSE C_VOLUME_UP  &mt DOWN_ARROW K_VOLUME_DOWN
             >;
         };
 
         layer_1 {
             bindings = <
-&kp PAGE_UP  &bt BT_CLR
+&mkp MB1  &bt BT_CLR
             >;
         };
 
